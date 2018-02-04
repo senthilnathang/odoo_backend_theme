@@ -7,7 +7,7 @@
 
         <xpath expr="//*[@id='oe_main_menu_navbar']" position="replace">
             <nav class="navbar-default navbar-static-side" role="navigation">
-                <div class="logo-area">
+                <div class="logo-area">					
                     <img t-attf-src="/theme_extensia/static/src/img/logo.png" class="logo" />
                     <img t-attf-src="/theme_extensia/static/src/img/logo_mini.png" class="logo_mini" />
                 </div>
@@ -17,7 +17,7 @@
             </nav>
         </xpath>
 
-        <xpath expr="//div[@class='o_main']" position="replace">
+        <xpath expr="//div[@class='openerp openerp_webclient_container oe_webclient']" position="replace">
             <div id="page-wrapper" class="gray-bg">
                 <div class="row border-bottom">
                     <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -27,14 +27,11 @@
                         <ul class="nav navbar-top-links navbar-right oe_user_menu_placeholder oe_systray" />
                     </nav>
                 </div>
-<!--
                 <div class="openerp openerp_webclient_container oe_webclient">
                     <div class="oe_application"/>
                 </div>
--->
-				<div class="o_main_content"/>
                 <div class="footer">
-                    <div class="pull-right"><strong>Extensia</strong></div>
+                    <div class="pull-right"><strong>Senthilnathan G</strong></div>
                     <div><strong>Copyright</strong> &#169; 2017</div>
                 </div>
             </div>

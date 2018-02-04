@@ -1,0 +1,8 @@
+.openerp .oe_fileupload .oe_attachments .oe_attachment a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    word-wrap: break-word;
+    width: 248px;
+    height: 120px;
+}

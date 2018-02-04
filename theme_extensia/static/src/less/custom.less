@@ -25,9 +25,12 @@ body {
         padding: 10px 10px 10px 15px;
     }
 }
+//active border
+/* 
 .nav.nav-second-level > li.active {
     border-left: 4px solid darken(@navy, 2%);
 }
+*/
 
 // Logo
 .logo-area {
@@ -63,105 +66,6 @@ body {
     }
 }
 
-// Menu icons
-.fa-menu {
-  &-discuss:before, &-email:before { // envelope
-    content: "\f0e0";
-  }
-  &-calendar:before { // calendar
-    content: "\f073";
-  }
-  &-contacts:before { // phone-square
-    content: "\f098";
-  }
-  &-sales:before { // line-chart
-    content: "\f201";
-  }
-  &-link-tracker:before { // link
-    content: "\f0c1";
-  }
-  &-accounting:before { // calculator
-    content: "\f1ec";
-  }
-  &-timesheets:before, &-timetables:before { // clock-o
-    content: "\f017";
-  }
-  &-employees:before, &-human-resources:before, &-parents:before { // users
-    content: "\f0c0";
-  }
-  &-attendances:before { // check-square-o
-    content: "\f046";
-  }
-  &-apps:before { // th-large
-    content: "\f009";
-  }
-  &-settings:before { // cog
-    content: "\f013";
-  }
-  &-contract-management:before { // briefcase
-    content: "\f0b1";
-  }
-  &-expenses:before { // money
-    content: "\f0d6";
-  }
-  &-leaves:before, &-events:before { // calendar-check-o 
-    content: "\f274";
-  }
-  &-mass-mailing:before { // bullseye
-    content: "\f140";
-  }
-  &-offboard:before { // arrow-up
-    content: "\f062";
-  }
-  &-onboard:before { // arrow-down
-    content: "\f063";
-  }
-  &-payroll:before, &-faculties:before { // university
-    content: "\f19c";
-  }
-  &-projects:before, &-project:before { // fa-flask
-    content: "\f0c3";
-  }
-  &-questionnaire:before { // question-circle-o
-    content: "\f29c";
-  }
-  &-recruitment:before, &-students:before { // graduation-cap
-    content: "\f19d";
-  }
-  &-supplier-management:before { // truck
-    content: "\f0d1";
-  }
-  &-website:before { // link
-    content: "\f0c1";
-  }
-  &-website-admin:before { // code
-    content: "\f121";
-  }
-  &-audit:before { // check
-    content: "\f00c";
-  }
-  &-management:before { // sitemap
-    content: "\f0e8";
-  }
-  &-admissions:before { // fa-user-plus
-    content: "\f234";
-  }
-  &-assignments:before { // fa-plus-square
-    content: "\f0fe";
-  }
-  &-surveys:before { // commenting-o
-    content: "\f27b";
-  }
-  &-exams:before { // pencil
-    content: "\f040";
-  }
-  &-library:before { // archive
-    content: "\f187";
-  }
-  &-dashboards:before { // tachometer
-    content: "\f0e4";
-  }
-}
 
 // Control panel header
 .openerp .oe-control-panel {
@@ -307,7 +211,8 @@ body {
         .oe_form_required input:not([disabled]):not([readonly]),
         .oe_form_required select:not([disabled]):not([readonly]),
         .oe_form_required textarea:not([disabled]):not([readonly]) {
-            background: none!important;
+            //background: none!important;
+            background :#d7d7e8!important;
         }
         input, textarea, select {
             border-radius: 0px;
@@ -422,3 +327,38 @@ body {
     margin: 0;
   }
 }
+
+// added to remove x in calendar
+
+.o_calendar_all_responsibles {
+    .o_calendar_responsible {
+        margin-top: 10px;
+    }
+
+    .oe_remove_follower {
+        display: none;
+        cursor: pointer;
+    }
+    &:hover .oe_remove_follower {
+        display: none;
+    }
+}
+
+
+.o_filter_button.o_selected {
+    border: none;
+    padding: 12px 10px;
+    margin: 0;
+    border-radius: 0;
+    background: #2f4050;
+    color: #fff;
+    text-align: center;
+    border-right: 1px solid #334556;
+}
+
+@charset "UTF-8";
+
+.openerp .oe_list_content td.oe_number {
+  text-align: center !important;
+  white-space: nowrap !important;
+ }

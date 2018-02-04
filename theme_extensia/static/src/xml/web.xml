@@ -3,32 +3,80 @@
 <templates>
     <t t-extend="UserMenu">
         <t t-jquery=".oe_topbar_avatar" t-operation="replace" />
+        <t t-jquery="a[data-menu='documentation']" t-operation="replace"></t>
+        <t t-jquery="a[data-menu='support']" t-operation="replace"></t>
+        <t t-jquery="a[data-menu='account']" t-operation="replace"></t>
+        <t t-jquery="a[data-menu='settings']" t-operation="after">
+            <li><a href="?debug" data-menu="debug">Developer mode</a></li>
+        </t>
+        <t t-jquery="li.divider" t-operation="replace"></t>
+    </t>
+    
+    <t t-extend="mail.client_action">
+      <t t-jquery=".o_mail_request_permission" t-operation="inner">
+        Your permission is required to <a href="#"> enable desktop notifications</a>.
+      </t>
+    </t>
+    
+    <div t-name="UserMenu.about" class="oe_about">
+    <div class="container-fluid">
+        <div class="row">
+            <a class="oe_activate_debug_mode oe_right label label-primary" href="?debug" >Activate the developer mode</a>
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-offset-2 col-sm-8 col-md-8 user-details">
+                <div class="user-info-block">
+                    <div class="user-body">
+                        <div class="tab-content">
+                            <div id="settings" class="tab-pane active">
+                                <h4>Copyright © 2017.</h4>
+                                <p>For more information visit <a target="_blank" href="https://www.twitter.com/senthilnathang" style="text-decoration: underline;">Senthilnathan G</a></p>
+                                <p>
+                                  <a href="https://www.facebook.com/senthilnathang"><i class="fa fa-facebook-square fa-3x social-fb"></i></a>
+                                  <a href="https://www.twitter.com/senthilnathang"><i class="fa fa-twitter-square fa-3x social-tw"></i></a>
+                                  <a href="https://www.linkedin.com/in/senthilnathang"><i class="fa fa-linkedin-square fa-3x social-lk"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <t t-extend="AppSwitcher.Content">
+      <t t-jquery=".o_application_switcher_footer" t-operation="replace">
+          <div class="o_app_switcher_footer">
+              <img src="/web/binary/company_logo"></img>
+          </div>
+      </t>
     </t>
 
-<!--
     <t t-extend="ControlPanel">
-        <t t-jquery=".o_control_panel" t-operation="replace">
-            <div class="o_control_panel row wrapper border-bottom white-bg page-heading">
+        <t t-jquery=".oe-control-panel" t-operation="replace">
+            <div class="oe-control-panel row wrapper border-bottom white-bg page-heading">
                 <div class="col-sm-5">
-                    <h2 class="o_cp_title">List View</h2>
-                    <ol class="o_viewtitle breadcrumb">
+                    <h2 class="oe-cp-title"/>
+                    <ol class="oe-view-title breadcrumb">
                     </ol> 
-                    <div class="o_cp_buttons o_cp_sidebar"></div>
+                    <div class="oe-cp-buttons oe-cp-sidebar"></div>
                 </div>
                 <div class="col-sm-7">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="o_cp_searchview" />
+                            <div class="oe-cp-search-view" />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-7">
-                            <div class="o_search_options btn-group"/>
+                            <div class="oe-search-options btn-group"/>
                         </div>
                         <div class="col-sm-5">
-                            <div class="o_right_toolbar">
-                                <div class="o_cp_pager"></div>
-                                <div class="o_cp_switch_buttons btn-group btn-group-sm"></div>
+                            <div class="oe-right-toolbar">
+                                <div class="oe-cp-pager"></div>
+                                <div class="oe-cp-switch-buttons btn-group btn-group-sm"></div>
                             </div>
                         </div>
                     </div>
@@ -36,5 +84,4 @@
             </div>
         </t>
     </t>
--->
 </templates>
