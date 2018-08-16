@@ -1,0 +1,206 @@
+#page-wrapper{ width:calc(100% - 220px)}
+.o_form_binary_file_save_data{
+    display:none !important;
+}
+
+.o_subtitle{
+    display:none !important;
+}
+/* .modal-footer .btn .btn-sm .oe_button .btn-primary{
+	display:none !important;
+} */
+
+
+
+.sidebar-collapse{background-color: #2f4050 !important}
+#side-menu > li.active > a,  .oe_load.sidebar-collapseing{ background-color: #283847 !important; color:#ffffff !important }
+.navbar-minimalize.minimalize{ margin:15px !important}
+/*.btn-primary { background-color: #3a97b0 !important; border-color: #3a97b0 !important}*/
+.navbar-default{ height:100%}
+.navbar-default .nav.nav-second-level li a:hover {background-color: transparent !important }
+.navbar-default .nav.nav-second-level li a{background-color:#283847 !important; color:#a7b1c2 !important;}
+.navbar-default .nav > li > a:hover{ background-color: #283847 !important; color:#fff !important}
+#side-menu > li > a:hover{ color:#fff !important}
+.sidebar-collapse ul ul li:last-child:before{ background-color: #b8773d !important}
+body.fixed-sidebar .navbar-static-side, body.canvas-menu .navbar-static-side{ z-index:1000 !important}
+.logo-area{background-color:#fff !important; height:63px !important; /*border-bottom:1px solid #b8773d !important*/}
+.mini-navbar .logo-area{border-bottom:1px solid #e3e3e3 !important}
+.logo-area img{ padding:6px !important; width:207px !important; margin-left:5px}
+.logo-area h1{text-transform: uppercase; font-size: 16px; font-weight: 600; float: right; width: 150px; margin: 14px 0; color:#fff }
+.navbar-default .nav > li.active { background-color:#283847 !important}
+.minimalize-styl-2 { padding: 6px 10px !important; margin: 15px !important; font-size:12px !important; line-height:1.5 !important}
+
+ 
+.oe_button.btn-danger{background-color: #ed5565 !important}
+.btn-primary, .oe_button.oe_highlight, .oe_button.btn-primary{ border:1px solid #75bb23 !important; background-color: #75bb23 !important }
+.btn-sm.btn-default, .oe_button{ border:1px solid #e5e5e5 !important; background-color: #eee !important } 
+.btn-sm.btn-default:hover, oe_button:hover{background-color: #e5e5e5 !important}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus,
+.oe_button.oe_highlight:hover, .oe_button.oe_highlight:active
+{background-color:#75bb23 !important; border: 1px solid #75bb23 !important}
+.active.highlight a{ background-color:#239ad0 !important}
+.highlight{background-color: #283847 !important}
+/*.highlight{    background-color: #0f3d73 !important}*/
+.navbar-static-top{width: calc(100% - 220px) !important; left: 220px !important; position:fixed }
+.mini-navbar .logo-area { width: 220px !important }
+#wrapper .o_main_content { margin-top: 75px }
+.logo_mini{ display:none}
+.logo{ opacity:1 !important}
+table.o_list_view, table.o_list_view td, table.o_list_view th{ border:1px solid #ccc}
+
+.DIS_watermark{ background:url('/theme_pappaya/static/src/img/watermark-img.png') no-repeat center center; position:fixed; width:100%; height:100%; pointer-events: none; opacity:0.07; z-index:9999}
+#wrapper{ position:absolute; overflow:auto !important}
+.mini-navbar .logo-area h1{ color:inherit !important}
+.mini-navbar .logo-area{ background-color:#fff !important}
+/*#side-menu li li {
+    border-left: 1px dashed #eee !important;
+}*/
+a.o_form_uri, .o_kanban_manage_toggle_button, .o_kanban_card_header_title .o_primary, .o_main_content .oe_horizontal_separator{ color: #337ab7 !important}
+a.o_form_uri{ text-decoration: underline !important}
+body{ background-color: #ffffff !important}
+.sidebar-collapse ul ul li:before{left: -1px}
+.o_main_content .o_control_panel{padding: 10px !important; margin:15px 0; background-color:#fff !important}
+.o_main_content .o_control_panel .breadcrumb li a{color: #75bb23 !important; text-decoration: underline;}
+.o_main_content .o_control_panel .breadcrumb li{ font-size:14px}
+table.oe_list_content thead tr:first-child, table.oe_list_content tfoot{ display:none}
+tr.oe_list_header_columns{ display: table-row !important}
+body.container{ width:100% !important; background-color: #044893;}
+body.container div#wrapper{ padding:15px !important; position:relative}
+.logo-container img{ display:block; margin:auto}
+body.container .o_database_list{ padding: 25px 50px !important}
+.o_database_list input, .o_database_list select{ color:#555 !important; text-align:left }
+.o_database_list input:focus, .o_database_list select:focus{ border-color: #66afe9 !important}
+
+
+/*theme styles added from pappaya_core menu.css*/
+.mini-navbar li .nav-second-level{ left:52px !important}
+.mini-navbar .metismenu .collapse.in{ width:200px !important}
+.mini-navbar li .nav-second-level .oe_secondary_submenu{ left:190px !important}
+#side-menu > li > a {font-weight: normal !important; padding: 14px 20px 14px 18px; font-size: 14px !important; color: #a7b1c2 !important }
+#side-menu .nav.nav-second-level li a{ font-weight: normal !important; font-size:14px !important}
+#side-menu .nav.nav-second-level li a:hover{ color:#ffffff !important}
+#side-menu > li.active li.active a { background: none !important}
+/*#side-menu li.active li.active{ border-left:1px dashed #eee !important}
+*/.nav.nav-second-level { padding: 0; list-style: none; margin-left: 25px; /*border-left: 2px solid #50606f*/ }
+.nav.nav-second-level ul{ margin-left:12px !important}
+.mini-navbar .nav.nav-second-level { border:none !important; margin-left: 0 !important }
+.mini-navbar .nav.nav-second-level li a{ padding-left: 10px !important}
+.nav.nav-second-level li a{ padding-left: 10px !important}
+.nav.nav-second-level li a:hover{ background: transparent !important}
+.sidebar-collapse ul li ul{	margin-left:10px; /* indentation */  position:relative }
+/*.sidebar-collapse ul li ul:before { content:""; display:block; width:0; position:absolute; top:0; bottom:0; border-left:1px solid #bbb }
+*/.sidebar-collapse ul ul li { margin:0; padding:0 8px; /* indentation + 2 */ font-size:14px; line-height:20px; /* default list item `line-height` */
+    color:#369; font-weight:bold;  position:relative }
+/*.sidebar-collapse ul ul li:before { content:""; display:block; width:10px; /* same with indentation  height:0; border-top:1px dashed #eee;
+    position:absolute; top:17px }
+.sidebar-collapse ul ul li:last-child:before {  background:#bbb;  height:auto; top:15px; 
+    bottom:0 }*/
+.sidebar-collapse ul li.active:before{left:-1px}
+.nav-second-level li:last-child{ margin-bottom:0 !important}
+body.mini-navbar .navbar-default .nav-second-level li a span{ display: inline !important}
+body.mini-navbar .navbar-default .nav-second-level li a.oe_menu_leaf span.arrow, .oe_menu_leaf span.arrow{ display:none !important}
+body.fixed-sidebar.mini-navbar .navbar-static-side{ width: 0 !important} 
+/*.nav > li.active { border-left: none !important }*/
+.o_main_content thead th{ border-left:none !important}
+/*extra added styles*/
+.sidebar-collapse .nav > li.active > a{ color:#ffffff  !important}
+.sidebar-collapse .nav > li > a{ color:#fff  !important}
+.nav.nav-second-level > li.active{border: none !important;}
+.nav > li.active {border-left: 4px solid #18ab8e !important;}
+.o_main_content .o_list_view thead{border-bottom: 2px solid #2D8BD5 !important;background: #2D8BD5 !important;color: #ffffff !important;}
+form .oe_login_buttons .btn-primary,form .oe_login_buttons .btn-primary:hover,form .oe_login_buttons .btn-primary:focus {background-color: #1cb394 !important; border-color: #1cb394} 
+body #wrapper form .field-login input {background-color: #fffff !important;} 
+
+
+body.mini-navbar #wrapper .slimScrollDiv{display:none} 
+.slimScrollDiv{height:calc(100% - 61px) !important}
+.slimScrollBar{background-color:#fff !important; width:9px !important; opacity:0 !important; transition: opacity 0.3s linear} 
+.slimScrollDiv:hover .slimScrollBar{opacity:0.4 !important; display:block !important}
+.navbar-fixed-top, .navbar-static-top{ background-color:#fff !important; border-bottom:1px solid #e3e3e3 !important}
+.footer{ padding: 3px 20px !important}
+.footer a img{ width:80px}
+.copyright{ font-size:11px}
+#wrapper .oe-view-manager-view-list, .o_main_content .oe-view-manager-view-list{ margin:0 !important}
+
+
+.o_main_content .oe_list_content th.oe_sortable div:after{ position:absolute; right:-5px; top:50%; margin:0}
+.o_main_content .oe_list_content td, .o_main_content .oe_list_content th{ vertical-align:middle !important }
+.navbar-header .fa.fa-bars:before{ content: "\f060" !important}
+.mini-navbar .navbar-header .fa.fa-bars:before{ content:"\f061" !important}
+
+
+
+
+
+.user_profile{ float:left; margin: 15px 0 15px 15px; font-weight:600; font-size:18px; color:#666; width:61% }
+.user_profile li{ list-style:none}
+.user_profile ul{ padding:0; margin:0}
+.oe_topbar_name{ font-size:14px; font-weight: 600; }
+.navbar-top-links li a{ padding: 13px 10px !important}
+.navbar-top-links img.oe_topbar_avatar{ width:36px; height: 36px; border-radius:50%}
+.navbar-top-links li:last-child{ margin-right:0 !important}
+.navbar-header{ width:3%}
+.user-action{ width:34%; float:left}
+.oe_user_menu_placeholder.oe_systray{ float:right }
+.oe_graph.oe_view{ background-color:#fff}
+.oe_graph.oe_view svg{ width: 100% !important}
+
+.o_dashboard .oe_list.o_list_view.oe_view{ overflow:auto}
+
+.o-pivot-table{ width:100%;  height:600px; pointer-events:none}
+.o_main_content .oe_pivot .dropdown-menu .pivot-dropdown-submenu > .dropdown-menu{ top:auto !important}
+
+.o_main_content .oe_pivot .oe-opened::before , .o_main_content .oe_pivot .oe-closed::before { content:"" !important}
+
+
+
+@media only screen and (max-width: 1600px), screen and (max-height: 900px) {
+  .oe_graph.oe_view, .o_dashboard .oe_list.o_list_view.oe_view{ height:520px !important}
+}
+
+@media only screen and (max-width: 1280px), screen and (max-height: 1024px) {
+  .oe_graph.oe_view, .o_dashboard .oe_list.o_list_view.oe_view{ height:420px !important}
+}
+
+@media only screen and (max-width: 1366px), screen and (max-height: 768px;) {
+  .oe_graph.oe_view, .o_dashboard .oe_list.o_list_view.oe_view{ height:390px !important}
+}
+
+@media only screen and (max-width: 1440px), screen and (max-height: 900px;){
+  .oe_graph.oe_view, .o_dashboard .oe_list.o_list_view.oe_view{ height:500px !important}
+}
+
+@media only screen and (max-width: 1280px), screen and (max-height: 800px;) {
+  .oe_graph.oe_view, .o_dashboard .oe_list.o_list_view.oe_view{ height:420px !important}
+}
+.invalid_fields{ color:#d00 !important}
+.o_chat_window{ right:48px !important}
+#scroll-top{ display:none; position: fixed;  z-index: 9999; right: 10px; bottom: 30px; width: 32px; height: 32px; color: #fff; background: #1cd4bb; border-radius: 50%; text-align: center; line-height: 32px }
+.navbar-top-links .dropdown-menu li a{ padding: 3px 20px !important}
+
+/*span.select_all::after {
+    content: "\00a0\000a0 All Schools";
+    position: absolute;*/
+}
+#wrapper .o_main_content .oe_loading{ background: #1cd4bb !important}
+
+.fixed_table .oe_list_content, table.fixed_table{ table-layout:fixed; width:99.7% !important}
+.fixed_table{ padding:0 !important}
+table.fixed_table{ position: relative; top: -10px}
+table.fixed_table td{ font-weight:bold; font-size:14px; background: #e6e6e6}
+.fixed_table .oe_list.o_list_view{ padding:0 !important}
+.fixed_table .oe_list_content th{padding: 6px 0px 8px 6px !important;}
+div#wrapper .o_main_content .o_form .o_form_required input:not([disabled]):not([readonly]), .o_main_content .o_form .o_form_required input:not([disabled]):not([readonly]), div#wrapper .o_main_content .o_form .o_form_required select:not([disabled]):not([readonly]), .o_main_content .o_form .o_form_required select:not([disabled]):not([readonly]), div#wrapper .o_main_content .o_form .o_form_required textarea:not([disabled]):not([readonly]), .o_main_content .o_form .o_form_required textarea:not([disabled]):not([readonly]){
+	background:#ffffff !important; border-left: 2px solid #ed5565 !important;
+}
+div#wrapper .o_main_content .o_form input:focus, .o_main_content .o_form input:focus, div#wrapper .o_main_content .o_form textarea:focus, .o_main_content .o_form textarea:focus, div#wrapper .o_main_content .o_form select:focus, .o_main_content .o_form select:focus{ border-color: #1cd4bb !important}
+.o_form_sheet{ max-width:100% !important}
+/*Error message styles*/
+.oe_import .oe_import_error_report .oe_import_report_error { background-color: #fff !important; color: #ed162d !important }
+.oe_import .oe_import_error_report .oe_import_report_warning { background-color: #fff !important; color: #fc8a0d !important }
+/*************/
+.bootstrap-datetimepicker-widget{ z-index:9999 !important}
+.o_view_manager_content{padding:15px 20px 20px 20px}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{ padding: 3px 6px !important}
+.o_form_view .o_form_sheet_bg{ background-image:none !important}
+.o_form_view .o_form_statusbar{ border: none !important}
