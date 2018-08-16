@@ -440,7 +440,7 @@ body.fixed-sidebar.mini-navbar .navbar-static-side {
   width: 0;
 }
 body.fixed-sidebar.mini-navbar #page-wrapper {
-  margin: 0 0 0 0;
+  margin: 0 0 0 0; width:100%
 }
 body.body-small.fixed-sidebar.mini-navbar #page-wrapper {
   margin: 0 0 0 220px;
@@ -8551,3 +8551,11 @@ body.md-skin {
     margin: 0;
   }
 }
+.oe_import, .o_mail_chat{ position:relative !important}
+div.o_boolean_toggle > input:checked + .slider{background-color: #75bb23 !important}
+div.o_boolean_toggle .slider{ background-color: #d1d1d1 !important}
+.o_form_view .o_form_statusbar > .o_statusbar_status{ padding: 5px}
+.o_view_manager_content { background: #fff}
+#wrapper .o_main_content{ padding-bottom:20px}
+
+
