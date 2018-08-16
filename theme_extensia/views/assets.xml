@@ -6,6 +6,7 @@
                 <link rel="stylesheet" href="/theme_extensia/static/src/css/bootstrap.css"/>
                 <link rel="stylesheet" href="/theme_extensia/static/src/css/animate.css"/>
                 <link rel="stylesheet" href="/theme_extensia/static/src/css/style.css"/>
+                <link rel="stylesheet" href="/theme_extensia/static/src/css/custom_theme.css"/>
 
                 <link rel="stylesheet" href="/theme_extensia/static/src/less/variables.less"/>
                 <link rel="stylesheet" href="/theme_extensia/static/src/less/mixins.less"/>
@@ -48,9 +49,9 @@
 
                 
                 <script type="application/javascript" src="/theme_extensia/static/src/js/plugins/peity/jquery.peity.min.js"/>
-<!--
+				
+				<script type="application/javascript" src="/theme_extensia/static/src/js/web_custom.js"/>
                 <script type="application/javascript" src="/theme_extensia/static/src/js/custom.js"/>
--->
             </xpath>
         </template>
     </data>
