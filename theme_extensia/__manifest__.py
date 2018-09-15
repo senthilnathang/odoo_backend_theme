@@ -3,6 +3,7 @@
     "description": "A custom theme",
     "version": "0.1",
     "author": "Senthilnathan G",
+    "website":"http://maxvuetech.com",
     "category": "Theme/Backend",
     "data": [
         "views/assets.xml",
